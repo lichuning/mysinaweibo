@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">微一微博</string>
+    <string name="oauth2">SSO授权认证 </string>
+    <string name="send_only_text">发送一条纯文本微博 </string>
+    <string name="public_timeline">获取最新公共微博 </string>
+    <string name="weibosdk_demo_toast_auth_success">授权成功</string>
+    <string name="weibosdk_demo_toast_auth_failed">授权失败</string>
+</resources>

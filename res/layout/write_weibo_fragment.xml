@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/weibo_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="top"
+        android:hint="说点什么吧" />
+
+    <TextView
+        android:id="@+id/word_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/weibo_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp"
+        android:text="0"
+        android:textSize="25sp" />
+    
+    <ImageView 
+        android:id="@+id/message_emotion"
+        android:src="@drawable/message_emotion_background"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/weibo_content"
+        />
+
+    <ImageView
+        android:id="@+id/compose_mentionbutton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/message_emotion"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/message_emotion"
+        android:src="@drawable/compose_mentionbutton_background" />
+    
+    <ImageView
+        android:id="@+id/compose_trendbutton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/message_emotion"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/compose_mentionbutton"
+        android:src="@drawable/compose_trendbutton_background" />
+
+</RelativeLayout>
